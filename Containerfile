@@ -1,6 +1,6 @@
 FROM docker.io/alpine:3 AS build
 ARG TARGETARCH
-ARG TERRAFORM_SWITCHER_VERSION=1.19.0
+ARG TERRAFORM_SWITCHER_VERSION=1.20.0
 
 RUN apk add curl ca-certificates tar gzip
 
